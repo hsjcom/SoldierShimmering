@@ -14,6 +14,8 @@
 		B2C462A41AE64E91008EAF43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C462A31AE64E91008EAF43 /* Images.xcassets */; };
 		B2C462A71AE64E91008EAF43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C462A51AE64E91008EAF43 /* LaunchScreen.xib */; };
 		B2C462B31AE64E91008EAF43 /* SoldierShimmeringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462B21AE64E91008EAF43 /* SoldierShimmeringTests.m */; };
+		B2C462C21AE64EF7008EAF43 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462BF1AE64EF7008EAF43 /* FBShimmeringLayer.m */; };
+		B2C462C31AE64EF7008EAF43 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462C11AE64EF7008EAF43 /* FBShimmeringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		B2C462AC1AE64E91008EAF43 /* SoldierShimmeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoldierShimmeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C462B11AE64E91008EAF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C462B21AE64E91008EAF43 /* SoldierShimmeringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldierShimmeringTests.m; sourceTree = "<group>"; };
+		B2C462BD1AE64EF7008EAF43 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		B2C462BE1AE64EF7008EAF43 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		B2C462BF1AE64EF7008EAF43 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		B2C462C01AE64EF7008EAF43 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		B2C462C11AE64EF7008EAF43 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		B2C462951AE64E91008EAF43 /* SoldierShimmering */ = {
 			isa = PBXGroup;
 			children = (
+				B2C462BC1AE64EF7008EAF43 /* FBShimmering */,
 				B2C4629A1AE64E91008EAF43 /* AppDelegate.h */,
 				B2C4629B1AE64E91008EAF43 /* AppDelegate.m */,
 				B2C4629D1AE64E91008EAF43 /* ViewController.h */,
@@ -117,6 +125,18 @@
 				B2C462B11AE64E91008EAF43 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2C462BC1AE64EF7008EAF43 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				B2C462BD1AE64EF7008EAF43 /* FBShimmering.h */,
+				B2C462BE1AE64EF7008EAF43 /* FBShimmeringLayer.h */,
+				B2C462BF1AE64EF7008EAF43 /* FBShimmeringLayer.m */,
+				B2C462C01AE64EF7008EAF43 /* FBShimmeringView.h */,
+				B2C462C11AE64EF7008EAF43 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +241,8 @@
 			files = (
 				B2C4629F1AE64E91008EAF43 /* ViewController.m in Sources */,
 				B2C4629C1AE64E91008EAF43 /* AppDelegate.m in Sources */,
+				B2C462C21AE64EF7008EAF43 /* FBShimmeringLayer.m in Sources */,
+				B2C462C31AE64EF7008EAF43 /* FBShimmeringView.m in Sources */,
 				B2C462991AE64E91008EAF43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
