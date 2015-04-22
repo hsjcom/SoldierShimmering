@@ -58,7 +58,7 @@
     /*
      * SJShimmeringText
      */
-    SJShimmeringText *text = [[SJShimmeringText alloc] initWithFrame:CGRectMake(0, _shimmeringView.frame.origin.y + _shimmeringView.frame.size.height + 40, self.view.frame.size.width, 10) text:@"Viva La Vida " font:[UIFont systemFontOfSize:55] textColor:[UIColor yellowColor] textAlignment:NSTextAlignmentCenter];
+    SJShimmeringText *text = [[SJShimmeringText alloc] initWithFrame:CGRectMake(0, _shimmeringView.frame.origin.y + _shimmeringView.frame.size.height + 40, self.view.frame.size.width, 10) text:@"  Viva La Vida  " font:[UIFont systemFontOfSize:55] textColor:[UIColor yellowColor] textAlignment:NSTextAlignmentCenter];
     [self.view addSubview:text];
 }
 
