@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FBShimmeringView.h"
+#import "SJShimmeringText.h"
 
 @interface ViewController () {
     FBShimmeringView *_shimmeringView;
@@ -30,6 +31,9 @@
 }
 
 - (void)textDisplay {
+    /*
+     * FBShimmeringView
+     */
     _shimmeringView = [[FBShimmeringView alloc] init];
     _shimmeringView.shimmering = YES;
     _shimmeringView.shimmeringBeginFadeDuration = 0.3;
@@ -49,6 +53,13 @@
     
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
     [self.view addGestureRecognizer:tapRecognizer];
+    
+    
+    /*
+     * SJShimmeringText
+     */
+    SJShimmeringText *text = [[SJShimmeringText alloc] initWithFrame:CGRectMake(0, _shimmeringView.frame.origin.y + _shimmeringView.frame.size.height + 40, self.view.frame.size.width, 10) text:@"Viva La Vida " font:[UIFont systemFontOfSize:55] textColor:[UIColor yellowColor] textAlignment:NSTextAlignmentCenter];
+    [self.view addSubview:text];
 }
 
 - (void)viewDisplay {

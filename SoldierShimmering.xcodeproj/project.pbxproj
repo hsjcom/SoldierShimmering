@@ -16,6 +16,7 @@
 		B2C462B31AE64E91008EAF43 /* SoldierShimmeringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462B21AE64E91008EAF43 /* SoldierShimmeringTests.m */; };
 		B2C462C21AE64EF7008EAF43 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462BF1AE64EF7008EAF43 /* FBShimmeringLayer.m */; };
 		B2C462C31AE64EF7008EAF43 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462C11AE64EF7008EAF43 /* FBShimmeringView.m */; };
+		B2C462CC1AE77FD4008EAF43 /* SJShimmeringText.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462CB1AE77FD4008EAF43 /* SJShimmeringText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		B2C462BF1AE64EF7008EAF43 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
 		B2C462C01AE64EF7008EAF43 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
 		B2C462C11AE64EF7008EAF43 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		B2C462CA1AE77FD4008EAF43 /* SJShimmeringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJShimmeringText.h; path = SoldierShimmering/SJShimmeringText.h; sourceTree = SOURCE_ROOT; };
+		B2C462CB1AE77FD4008EAF43 /* SJShimmeringText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJShimmeringText.m; path = SoldierShimmering/SJShimmeringText.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				B2C4629D1AE64E91008EAF43 /* ViewController.h */,
 				B2C4629E1AE64E91008EAF43 /* ViewController.m */,
 				B2C462A01AE64E91008EAF43 /* Main.storyboard */,
+				B2C462CA1AE77FD4008EAF43 /* SJShimmeringText.h */,
+				B2C462CB1AE77FD4008EAF43 /* SJShimmeringText.m */,
 				B2C462A31AE64E91008EAF43 /* Images.xcassets */,
 				B2C462A51AE64E91008EAF43 /* LaunchScreen.xib */,
 				B2C462961AE64E91008EAF43 /* Supporting Files */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C462CC1AE77FD4008EAF43 /* SJShimmeringText.m in Sources */,
 				B2C4629F1AE64E91008EAF43 /* ViewController.m in Sources */,
 				B2C4629C1AE64E91008EAF43 /* AppDelegate.m in Sources */,
 				B2C462C21AE64EF7008EAF43 /* FBShimmeringLayer.m in Sources */,
@@ -436,6 +442,7 @@
 				B2C462B81AE64E91008EAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C462B91AE64E91008EAF43 /* Build configuration list for PBXNativeTarget "SoldierShimmeringTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +451,7 @@
 				B2C462BB1AE64E91008EAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
