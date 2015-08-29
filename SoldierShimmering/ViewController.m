@@ -18,9 +18,6 @@
 
 @implementation ViewController
 
-- (void)dealloc {
-}
-
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
