@@ -54,7 +54,6 @@
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
     [self.view addGestureRecognizer:tapRecognizer];
     
-    
     /*
      * SJShimmeringText
      */
